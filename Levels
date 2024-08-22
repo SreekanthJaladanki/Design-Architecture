@@ -1,0 +1,49 @@
+Levels of Architecture
+Architecture can be done on several “levels” of abstractions. The level influences the importance of necessary skills. As there are many categorizations possible my favorite segmentation includes these 3 levels:
+
+**Application Level*: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication is usually within one development team.
+
+**Solution Level*: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication is between multiple development teams.
+
+**Enterprise Level*: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication is across the organization.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Enterprise Software Architecture**
+
+Key Responsibilities and Challenges
+-Ensure that a company’s IT strategy and business goals are aligned
+-Actively involved with the design, maintenance and continual
+-improvement of the company’s architecture at an enterprise level
+-Development of IT standards and policies within the company
+-Risk management & impact assessment of the architecture
+-Identifying Disruptive Technology
+
+**Unified Modelling Language (UML)**
+UML is a standard language for modelling software systems. It offers a pictorial view and allows us to visualize the system design (even the business users).
+
+The main categories of UML include structural, which describes the static structure of the system through objects relationships and attributes (e.g. component diagram, class diagram), and also behavior diagrams which show the dynamic behavior of the system through object collaboration and state changes. Within this, there us the interaction subcategory, which is a subset of the behavior diagrams. Interaction diagrams such as the sequence diagram and communication diagram focus on the flow of control and data.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Kruchten’s 4+1 Model**
+This is a view model used to describe the architecture of software-based systems, and is made up of multiple concurrent views that allows us to describe the system from the perspective of different stakeholders. The views included in this model are:
+
+Development view → 
+Describes the programmer’s perspective of the system and is focused on software management and domain UML diagrams. In this view are the component diagram and the package diagram describing the systems components and packages respectively.
+
+Logical view →
+Concerned with system behavior and the functionality provided to end users
+
+Physical view → 
+Describes the perspective of a system and network engineer and this concerns the distribution and topology of software effects on a physical layer and how they are interconnected.
+
+Process view →
+Mostly concerned with system processes, how they communicate with each other and they represent things such as control flow concurrency and data flow.
+
+Scenarios → 
+Plus one view in Crichton’s four plus one model. Using a set of scenarios or use cases to start off system testing based on these set of scenarios, and they are also important to verify that the design of the system actually makes sense and will satisfy stakeholder requirements.
+
+
+Lucidchart is a good tool to use to create UML diagrams.
