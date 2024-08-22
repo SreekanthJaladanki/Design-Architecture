@@ -1,0 +1,41 @@
+**Common types of software architecture patterns**
+When we create a new building, we have to make choices about which materials to use, what kind of foundation to build it on, which style to use and so on. Software architecture is no different. There are quite a number of ways that architectures can be structured and patterned, with some more popular than others.
+
+**1.Layered (N-tier) pattern architecture**
+This database-driven architecture is probably the most common approach as it is a great way to store information effectively in tables. It has been used for some of the biggest software frameworks like Express, Java EE, and Drupal.
+
+In a layered approach, the data begins at the top layer and works its way down until it reaches the bottom (which is typically a database). As it descends, each layer has a different task, focusing on the data and solving issues such as reformatting the values.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**2.Event-driven architecture**
+This approach is agile and with high performance. Large numbers of programs spend the majority of their time waiting for an event to occur (such as a human using a computer). It is built around the idea that sometimes data will need to be processed, and other times it won’t. This is managed through a central unit that processes all the data sent to it before delegating them to the relevant modules.
+
+Where a layered architecture will pass data through all levels, event-driven architectures will only send the data to the appropriate location; hence, why they are considered highly efficient. This architecture is great at adapting to complex environments. It can be scaled easily and extended if new event types are used.
+
+However, testing can only be done on individual modules if they are independent. Otherwise, they will have to be tested in a fully functional system. Error handling can be challenging to structure if several modules are handling the same events.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**3.Client-server architecture**
+In the client-server architecture style, end users, referred to as “clients,” request services from “servers,” which handle and process data. This pattern is most commonly seen in web applications, where the browser acts as the client and communicates with the server to provide the necessary services.
+
+This style is used to enhance the software development process, as well as to improve data security and management
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**4.Microservices architecture**
+The microservices architecture is a technique that simplifies complex programs by dividing them into smaller services that can still communicate with each other. Each service is designed to solve a specific business problem, such as payments or identification.
+
+These services run in containers, making them more modular and easier to manage. They can be written in different programming languages, used in various contexts, and maintained by different groups of programmers.
+
+Overall, microservices provide greater flexibility and scalability for software development.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**5.Microkernel architecture**
+A kernel is like the brain of a software system, controlling everything the system does. The microkernel design keeps this “brain” as small and straightforward as possible, dealing only with the most crucial tasks. Other tasks, like managing files or connecting to devices, are handled by separate pieces outside this core. This way, if one piece has an issue, the central component remains unaffected.
+
+In the microkernel design, these separate pieces communicate with the core brain using a method called “inter-process communication.” This design makes adding, changing, or fixing parts easier without disturbing the entire system. It’s like having a central control room focusing only on primary decisions while specialised departments handle detailed tasks.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+**6.Cloud-native architecture**
+Using a cloud-native design approach allows you to reap the benefits of cloud computing. Applications built with this architecture are made of services that are loosely linked with each other, which makes each service scalable and reliable, making it possible to use them across multiple cloud environments.
+
+This results in high availability and flexibility. Adopting this method leads to better use of resources, shorter launch times, and better adaptability to changing workloads.
