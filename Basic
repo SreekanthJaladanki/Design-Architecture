@@ -1,0 +1,14 @@
+Difference Between "Software Architecture & Software Design"
+
+The architect is concerned with the ‘big picture’ questions of what the project is, how it will look, what its function is, and so on, whereas the designer/engineer is concerned with how to make the architect’s ideas work. The software architecture is all done before any of the actual coding begins.
+
+Software architecture involves understanding and organising a system, all of its components, their interactions, the environment in which they operate, and the core principles which will be used to design the software.
+
+Software design is all about how the software architecture can be implemented into the overall system. This involves:
+  -Coding
+  -Using specific design patterns
+  -Choosing classes, interfaces, functions and responsibilities
+  -Working with specific components and modules
+
+  
+
