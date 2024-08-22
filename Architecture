@@ -1,0 +1,11 @@
+Points to Remember!!
+
+1.Software architecture is about capturing decisions, not describing structure
+2.Architecting is a skill that agile teams embody, which means that Architect should not be a role
+3.Architecting means continuously exploring new approaches and different alternatives to best meet quality attributes
+
+**Architecting means continuously exploring*
+Architecting modern software applications is a fundamentally explorative activity. Teams building today’s applications encounter new challenges every day: unprecedented technical challenges as well as providing customers with new ways of solving new and different problems. This continuous exploration means that the architecture can’t be determined up-front, based on past experiences; teams have to find new ways of satisfying quality requirements.
+
+**What is Software Architect?*
+An expert developer who design software solutions from the ground up, making high-level decisions about each stage of the process including technical standards, tools, design principles, platforms to be used, etc., leading a team of engineers to create the final product.
